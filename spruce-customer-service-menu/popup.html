@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Spruce Finance Customer Service Menu
+        </title>
+        <link rel='stylesheet' href='style.css'/>
+    </head>
+    <body>
+        <h1>
+            Spruce Finance Customer Service Menu
+        </h1>
+        <hr/>
+        <form method='post'>
+            <label>
+                <strong>Environment</strong>
+                <select name='environment'>
+                    <option value='https://tools.cleanpowerfinance.com/' selected='selected'>
+                        Production
+                    </option>
+                    <option value='https://tools.cpfmirror.com/'>
+                        Mirror
+                    </option>
+                    <option value='https://tools.cpfstaging.com/'>
+                        Staging
+                    </option>
+                </select>
+            </label>
+            <label>
+                <strong>ID</strong>
+                <input name='id' tabindex='1'/>
+                <button type='button' name='customer'>Customer</button>
+                <button type='button' name='proposal'>Proposal</button>
+                <button type='button' name='financing'>Financing Request</button>
+                <button type='button' name='credit-check'>Credit Check</button>
+            </label>
+        </form>
+        <small></small>
+        <script src='popup.js'></script>
+    </body>
+</html>

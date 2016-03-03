@@ -1,0 +1,19 @@
+{
+   "author": "Daphne Alexandra Dorman",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "persistent": false
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Quick Menu for Spruce Finance Customer Service Representatives.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo97XAJR9yvKCFsf4S3cspTKe6lBYDBSKNiNrVzvsclTUYscjSpD+B3/1jOERtt56tKai7zBLu9hxwcTt0TYpbog62jJgCtoZh9eGYEIWwF9A33fxM+CqBelMuiBT8xJD+gRkXSPfmMIXVWfrzBYm8eu/WWCMt1M2aaqF2Ueg3r3HAQGEwEQqI0EWX441FN3Krz2Z5C3zy0uQJHrTwi8Rv9iifJaEdHruOvOb/NN0udX6cBgsKRQOypyzmS9SmPcevb/LGPhoPbEvv+IL6KqRnYS7QQKDno3hfoMqUetHX8bccv/esH4wJkkwUA+PxbQR5pNE9JNZc6STEng5ZKZWAQIDAQAB",
+   "manifest_version": 2,
+   "name": "Spruce Finance Customer Service Menu",
+   "permissions": [ "tabs", "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.2"
+}

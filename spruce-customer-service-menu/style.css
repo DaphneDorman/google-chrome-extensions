@@ -1,0 +1,5 @@
+h1 { font-size: 16px; white-space: nowrap; }
+label>strong { padding: 8px 4px; }
+select,option { font-size: 18px; }
+label { display: flex; padding: 4px 0;width: 100%; }
+select{align-self: center;}
